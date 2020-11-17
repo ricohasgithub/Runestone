@@ -1,5 +1,9 @@
 
-
+p {
+    font-family: '8BITWONDERNominal';
+    font-weight: normal;
+    font-style: normal;
+}
 
 html {
     background-color: black;
