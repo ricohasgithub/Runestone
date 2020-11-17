@@ -1,6 +1,6 @@
 
 #main-header {
-    color: white;
+    color: #f0f0f0;
     position: absolute;
     margin-top: 35vh;
     margin-left: 5vw;
@@ -17,25 +17,21 @@
 
 #game-text {
     position: absolute;
-    margin-top: 8vh;
-    margin-left: 25vw;
+    margin-top: 12vh;
+    margin-left: 30vw;
     font-size: 4vh;
 }
 
 .bit {
-    font-family: '8BITWONDERNominal';
-    font-weight: normal;
-    font-style: normal;
+    font-family: 'Press Start 2P', cursive;
 }
 
 p, h1, h2, h3, h4, h5, h6 {
-    font-family: '8BITWONDERNominal';
-    font-weight: normal;
-    font-style: normal;
-    color: white;
+    font-family: 'Press Start 2P', cursive;
+    color: #f0f0f0;
 }
 
 html {
-    background-color: black;
+    background-color: #1c1c1c;
     overflow-x: hidden;
 }
