@@ -2,7 +2,23 @@
 #main-header {
     color: white;
     position: absolute;
-    margin-top: 40vh;
+    margin-top: 35vh;
+    margin-left: 5vw;
+    font-size: 6vh;
+}
+
+#mage {
+    height: 25vh;
+    width: 15vw;
+    position: absolute;
+    margin-top: 20vh;
+    margin-right: 3vw;
+}
+
+#game-text {
+    position: absolute;
+    margin-top: 8vh;
+    margin-left: 25vw;
     font-size: 4vh;
 }
 
