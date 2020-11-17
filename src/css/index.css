@@ -1,8 +1,22 @@
 
-p {
+#main-header {
+    color: white;
+    position: absolute;
+    margin-top: 40vh;
+    font-size: 4vh;
+}
+
+.bit {
     font-family: '8BITWONDERNominal';
     font-weight: normal;
     font-style: normal;
+}
+
+p, h1, h2, h3, h4, h5, h6 {
+    font-family: '8BITWONDERNominal';
+    font-weight: normal;
+    font-style: normal;
+    color: white;
 }
 
 html {
