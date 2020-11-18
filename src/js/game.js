@@ -13,7 +13,7 @@ let win = false;
 window.addEventListener("keyup", function(event) {
 
     // Event 13 is the "enter" key on the keyboard
-    if (event.keyCode === 13 && guessNumber < 5) {
+    if (event.keyCode === 13 && guessNumber <= 4) {
         processGuess();
     }
 
@@ -27,6 +27,7 @@ function processGuess () {
 
     // Read the user guess as an int
     let guessInt = parseInt(guess.value, 10);
+    guess.value = "";
 
     console.log(randomNumber);
     console.log(guessInt);
@@ -43,7 +44,7 @@ function processGuess () {
     }
 
     // Check to see if the player lost
-    if (win === false && guessNumber === 5) {
+    if (win === false && guessNumber === 4) {
         output.innerHTML = "";
         output.innerHTML = "Game over";
     }
