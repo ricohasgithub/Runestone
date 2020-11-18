@@ -6,18 +6,19 @@
     margin-left: 5vw;
 }
 
-#quest-title {
+#quest {
     position: absolute;
-    font-size: 5vh;
     margin-top: 20vh;
     margin-left: 35vw;
 }
 
+#quest-title {
+    font-size: 5vh;
+}
+
 #quest-form {
-    position: absolute;
     font-size: 3vh;
-    margin-top: 30vh;
-    margin-left: 35vw;
+    margin-top: 2vh;
 }
 
 #quest-continue {
