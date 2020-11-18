@@ -60,9 +60,10 @@ window.addEventListener("keyup", function(event) {
         questNumber++;
         renderQuest();
     } else if (event.keyCode === 13 && questNumber === 5) {
-        // Restart the game by redirecting to the same page again
+        // Restart the game by redirecting to the initial page
         event.preventDefault();
-        window.location = "quest.html";
+        questNumber = 0;
+        renderQuest();
     }
 });
 
