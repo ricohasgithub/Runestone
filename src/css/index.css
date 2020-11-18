@@ -7,27 +7,7 @@
     font-size: 6vh;
 }
 
-#ambience-header {
-    position: absolute;
-    margin-left: 5vw;
-    margin-top: 5vh;
-}
-
-#ambience-text {
-    position: absolute;
-    margin-left: 7vw;
-    margin-top: 2vh;
-    width: 20vw;
-}
-
-#ambience-img {
-    width: 5vw;
-    position: absolute;
-}
-
-
 #mage {
-    height: 25vh;
     width: 15vw;
     position: absolute;
     margin-top: 20vh;
@@ -39,19 +19,4 @@
     margin-top: 12vh;
     margin-left: 30vw;
     font-size: 4vh;
-}
-
-.bit {
-    font-family: 'Press Start 2P', cursive;
-    color: #f0f0f0;
-}
-
-p, h1, h2, h3, h4, h5, h6 {
-    font-family: 'Press Start 2P', cursive;
-    color: #f0f0f0;
-}
-
-html {
-    background-color: #1c1c1c;
-    overflow-x: hidden;
 }
