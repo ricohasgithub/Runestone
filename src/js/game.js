@@ -22,20 +22,22 @@ window.addEventListener("keyup", function(event) {
 // This function reads and casts the integer input of the player and tells you what the result is
 function processGuess () {
 
+    // Clear the current output text
+    output.innerHTML = "";
+
     // Read the user guess as an int
     let guessInt = parseInt(guess.value, 10);
 
     console.log(randomNumber);
     console.log(guessInt);
     
-    if (guessInt > guessNumber) {
-        output.innerHTML = "";
+    if (guessInt < randomNumber) {
+        console.log("bigger");
         output.innerHTML = "Needs to be bigger";
-    } else if (guessInt < guessNumber) {
-        output.innerHTML = "";
+    } else if (guessInt > randomNumber) {
+        console.log("smaller");
         output.innerHTML = "Needs to be smaller";
-    } else if (guessInt === guessNumber) {
-        output.innerHTML = "";
+    } else if (guessInt === randomNumber) {
         output.innerHTML = "Success!";
         win = true;
     }
