@@ -7,6 +7,25 @@
     font-size: 6vh;
 }
 
+#ambience-header {
+    position: absolute;
+    margin-left: 5vw;
+    margin-top: 5vh;
+}
+
+#ambience-text {
+    position: absolute;
+    margin-left: 7vw;
+    margin-top: 2vh;
+    width: 20vw;
+}
+
+#ambience-img {
+    width: 5vw;
+    position: absolute;
+}
+
+
 #mage {
     height: 25vh;
     width: 15vw;
@@ -24,6 +43,7 @@
 
 .bit {
     font-family: 'Press Start 2P', cursive;
+    color: #f0f0f0;
 }
 
 p, h1, h2, h3, h4, h5, h6 {
