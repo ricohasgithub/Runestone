@@ -10,7 +10,7 @@ function togglePause() {
     } else {
         ambienceAudio.pause();
     }
- }
+}
 
 setInterval(function() {
     entertext.style.display = (entertext.style.display == 'none' ? '' : 'none');
