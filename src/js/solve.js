@@ -55,12 +55,19 @@ chapters = [
 
 window.addEventListener("keyup", function(event) {
     // Event 13 is the "enter" key on the keyboard
-    if (event.keyCode === 13) {
+    if (event.keyCode === 13 && questNumber <= 5) {
         // Increment the level
-
+        questNumber++;
+        renderQuest();
     }
 });
 
 function renderQuest () {
-
+    questTitle.innerHTML = "";
+    questForm.innerHTML = "";
+    questTitle.innerHTML = titles[questNumber];
+    questForm.innerHTML = chapters[questNumber];
 }
+
+// Render the intro text (questNumber = 0)
+renderQuest();
