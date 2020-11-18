@@ -42,7 +42,7 @@ setInterval(function() {
 let questNumber = 0;
 
 // Titles of the quest chapters (kinda hard coded lol)
-titles =  ["Chapte 0: Introduction", "Chapter 1: RNG!!!", "Chapter 2: Input Required", "Chapter 3: Hmm... Decisions", "Chapter 4: Trial and Error", "Chapter 5: Playtest"],
+titles =  ["Chapter 0: Introduction", "Chapter 1: RNG!!!", "Chapter 2: Input Required", "Chapter 3: Hmm... Decisions", "Chapter 4: Trial and Error", "Chapter 5: Playtest"],
 // Corresponding chapter text of the quest chapters
 chapters = [
     "Greetings brave traveller! Welcome to Runestone: Gloom Celebrities, the #4 rated fantasy RPG game on the iOS free to play fantasy RPG section! I am Grandorf, the level 4 mage NPC, and I see that you come here to seek the Chaos Emerald! A brave soul you are indeed! The Chaos Emerald is hidden behind a vast labyrinth, guarded by a safe with a security pin nearly impossible to crack. You, brave traveller, need to reverse-engineer the safe algorithm in order to retrieve this Chaos Emerald. We’ve talked enough, let us begin!",
@@ -55,7 +55,7 @@ chapters = [
 
 window.addEventListener("keyup", function(event) {
     // Event 13 is the "enter" key on the keyboard
-    if (event.keyCode === 13 && questNumber <= 5) {
+    if (event.keyCode === 13 && questNumber < 5) {
         // Increment the level
         questNumber++;
         renderQuest();
