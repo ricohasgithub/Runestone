@@ -59,6 +59,10 @@ window.addEventListener("keyup", function(event) {
         // Increment the level
         questNumber++;
         renderQuest();
+    } else if (event.keyCode === 13 && questNumber === 5) {
+        // Restart the game by redirecting to the same page again
+        event.preventDefault();
+        window.location = "quest.html";
     }
 });
 
