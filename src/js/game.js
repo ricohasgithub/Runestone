@@ -29,14 +29,9 @@ function processGuess () {
     let guessInt = parseInt(guess.value, 10);
     guess.value = "";
 
-    console.log(randomNumber);
-    console.log(guessInt);
-    
     if (guessInt < randomNumber) {
-        console.log("bigger");
         output.innerHTML = "Needs to be bigger";
     } else if (guessInt > randomNumber) {
-        console.log("smaller");
         output.innerHTML = "Needs to be smaller";
     } else if (guessInt === randomNumber) {
         output.innerHTML = "Success!";
