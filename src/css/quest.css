@@ -26,6 +26,13 @@
     font-size: 2.5vh;
 }
 
+#quest-continue-ab {
+    position: absolute;
+    margin-top: 90vh;
+    margin-left: 35vw;
+    font-size: 2.5vh;
+}
+
 #player-guess {
     position: absolute;
     font-size: 5vh;
