@@ -22,9 +22,7 @@
 }
 
 #quest-continue {
-    position: absolute;
-    margin-top: 90vh;
-    margin-left: 35vw;
+    margin-top: 5vh;
     font-size: 2.5vh;
 }
 
